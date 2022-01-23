@@ -3,6 +3,11 @@
 <!-- [https://cristian2213-omnifood.netlify.app/](https://cristian2213-omnifood.netlify.app/) -->
 
 ![Disney+](public/images/app-img.jpg?raw=true 'Disney+')
+<br>
+![Disney+](public/images/detail.jpg?raw=true 'Disney+')
+<br>
+![Disney+](public/images/login.jpg?raw=true 'Disney+')
+<br>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 

@@ -29,6 +29,15 @@ function Detail() {
           <img src='/images/group-icon.png' />
         </GroupWatchButton>
       </Controls>
+      <SubTitle>2018 &dot; 7m &dot; Family, Fantasy, Kids, Animation</SubTitle>
+      <Description>
+        In Disney•Pixar’s Bao, a Chinese mom who’s sad when her grown son leaves
+        home gets another chance at motherhood when one of her dumplings springs
+        to life as a lively, giggly dumpling boy. Mom excitedly welcomes this
+        new bundle of joy into her life, but Dumpling starts growing up fast,
+        and Mom must face the bittersweet truth that nothing stays cute and
+        small forever.
+      </Description>
     </Container>
   );
 }
@@ -63,6 +72,7 @@ const ImgTitle = styled.div`
   width: 35vw;
   min-height: 170px;
   min-width: 200px;
+  margin-top: 60px;
 
   img {
     width: 100%;
@@ -122,4 +132,19 @@ const AddButton = styled.button`
 // NOTE This is the way for sharing styles with other components
 const GroupWatchButton = styled(AddButton)`
   background: rgba(0, 0, 0);
+`;
+
+const SubTitle = styled.div`
+  color: rgb(249, 249, 249);
+  font-size: 15px;
+  min-height: 20px;
+  margin-top: 26px;
+`;
+
+const Description = styled.div`
+  line-height: 1.4;
+  font-size: 20px;
+  margin-top: 16px;
+  color: rgb(249, 249, 249);
+  max-width: 760px;
 `;
